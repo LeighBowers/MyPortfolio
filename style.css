@@ -13,7 +13,8 @@ ul {
     overflow: hidden;
     
     /*  */
-    background-color: rgb(136, 12, 12);
+    background-color: rgb(25, 124, 50);
+    
 }
 /* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
 li {
@@ -48,11 +49,17 @@ li a .active {
     background-color: #081a2ebe;
 
 }
-.portfolio {
-    width:480px;
-    height:300px;
+.portfoli{
+    width: 600px;
+    height:400px;
     display: block;
     margin-left: auto;
     margin-right: auto;    
 }
-
+.about{
+    word-spacing: 30px;
+  }
+  
+  .contact {
+    word-spacing: 1px;
+  }
