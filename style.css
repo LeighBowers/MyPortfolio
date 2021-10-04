@@ -13,7 +13,7 @@ ul {
     overflow: hidden;
     
     /*  */
-    background-color: rgb(71, 19, 138);
+    background-color: rgb(99, 58, 153);
     
 }
 /* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
@@ -41,12 +41,12 @@ li a {
 /* The :hover selector is used to select elements when you mouse over them. */
 li a:hover {
     /*  */
-    background-color: rgb(6, 14, 41);
+    background-color: rgb(46, 68, 141);
 }
 
 li a .active {
     /*  */
-    background-color: #081a2ebe;
+    background-color: #111e2ebe;
 
 }
 .portfoli{
@@ -91,7 +91,7 @@ li a .active {
     box-shadow: 0 4px 8px 0 rgba(127, 126, 150, 0.788);
     margin: 5px; 
     text-align: center;
-
+     
     
   }
   
@@ -140,9 +140,45 @@ li a .active {
   }
 
 /* Style the header */
+
+
 .header {
     padding: 80px;
     text-align: center;
     background: #656a75;
     color: rgb(8, 7, 7);
+  }
+  
+  header{
+    text-align: center;
+    overflow: hidden;
+    background-size: cover;
+    padding-top: 60px;
+    min-height: 770px;
+    margin-bottom: 50px;
+    }
+
+header .tagline, .view{
+    background-color: #251414;
+    color: white;
+    padding: 20px;
+    display: table;
+    text-align: center;
+    margin: 100px auto;
+    border-bottom: 3px solid rgb(87, 90, 90);
+    border-radius: 10px;
+  }
+h1, h2{
+  font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2em;
+    padding-top: 40px;
+}
+h2{
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+  header .profile-image:hover {
+    transform: scale(1.2) rotate(360deg);
+    border: 7px solid rgb(153, 142, 148);
   }
