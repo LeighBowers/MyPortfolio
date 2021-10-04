@@ -1,0 +1,148 @@
+/* The <ul> tag defines an unordered (bulleted) list */
+ul {
+    /* Remove list bullets */
+    list-style-type: none;
+    
+    /* The CSS margin properties are used to create space around elements, outside of any defined borders */
+    margin: 1;
+    
+    /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+    padding: 4;
+    
+    /* The overflow property specifies what should happen if content overflows an element's box. */
+    overflow: hidden;
+    
+    /*  */
+    background-color: rgb(71, 19, 138);
+    
+}
+/* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
+li {
+    /* The float property is used for positioning and formatting content e.g. let an image float left to the text in a container. */
+    float: left;
+}
+/* The <a> tag defines a hyperlink, which is used to link from one page to another. */
+li a {
+    /* The display property specifies the display behavior (the type of rendering box) of an element. */
+    display: block;
+    
+    /*  */
+    color: white;
+    
+    /* The text-align property specifies the horizontal alignment of text in an element. */
+    text-align: center;
+    
+    /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+    padding: 12px 14px;
+    
+    /* The text-decoration property specifies the decoration added to text */
+    text-decoration: none;
+}
+/* The :hover selector is used to select elements when you mouse over them. */
+li a:hover {
+    /*  */
+    background-color: rgb(6, 14, 41);
+}
+
+li a .active {
+    /*  */
+    background-color: #081a2ebe;
+
+}
+.portfoli{
+    width: 600px;
+    height:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+    
+  .background-image{
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .aboutit{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(127, 126, 150, 0.788);
+    margin: 5px; 
+    text-align: center;
+
+    
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #5d474773;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+/* Style the header */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #656a75;
+    color: rgb(8, 7, 7);
+  }
