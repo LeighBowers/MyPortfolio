@@ -91,8 +91,9 @@ li a .active {
     box-shadow: 0 4px 8px 0 rgba(127, 126, 150, 0.788);
     margin: 5px; 
     text-align: center;
-     
-    
+    margin-left: auto;
+    margin-right: auto;
+
   }
   
   .about-section {
@@ -159,8 +160,8 @@ li a .active {
     }
 
 header .tagline, .view{
-    background-color: #251414;
-    color: white;
+    background-color: #251424;
+    color: rgb(99, 16, 116);
     padding: 20px;
     display: table;
     text-align: center;
@@ -175,10 +176,45 @@ h1, h2{
 }
 h2{
     font-size: 1.2em;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
   header .profile-image:hover {
     transform: scale(1.2) rotate(360deg);
-    border: 7px solid rgb(170, 9, 98);
+    border: 7px solid rgba(85, 0, 35, 0.651);
   }
+
+  h1 {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 80px;
+    font-style: italic;
+    color: #640564;
+  }
+  h3 form {
+    font-family: Helvetica;
+    color: #777;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+p {
+    font-family: Helvetica;
+    color: #777;
+}
+
+input {
+    font-family: Helvetica;
+    color: #777;
+    margin-bottom: 5px;
+    text-align: center;
+
+
+}
+
+textarea {
+	display: block;
+	margin: auto;
+	width: 400px;
+	color: rgb(172, 116, 116);
+}
