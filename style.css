@@ -13,7 +13,7 @@ ul {
     overflow: hidden;
     
     /*  */
-    background-color: rgb(99, 58, 153);
+    background-color: rgb(138, 94, 196);
     
 }
 /* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
@@ -129,7 +129,7 @@ li a .active {
   }
   
   .button:hover {
-    background-color: #555;
+    background-color: rgb(126, 111, 111);
   }
   
   @media screen and (max-width: 650px) {
@@ -180,5 +180,5 @@ h2{
 
   header .profile-image:hover {
     transform: scale(1.2) rotate(360deg);
-    border: 7px solid rgb(153, 142, 148);
+    border: 7px solid rgb(170, 9, 98);
   }
